@@ -2,6 +2,8 @@ import Navbar from "../components/ui/Navbar"
 
 import {Comic_Neue} from 'next/font/google'
  
+import "./global.css" //abarca toda las paginas
+
 export const metadata = {
   title: {
     template: '%s | Tienda Dash',

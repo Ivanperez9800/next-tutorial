@@ -1,0 +1,30 @@
+.navbar{
+    background-color: #101010;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4rem;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul{
+    gap: 1rem;
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li a:hover{
+    color: rgb(204, 30, 30);
+    text-decoration: overline;
+}
+
+
+h1 a:hover{
+    text-decoration:underline;
+    color: rgb(200, 34, 34);
+}
